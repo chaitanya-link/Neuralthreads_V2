@@ -1,0 +1,22 @@
+{
+    "name": "neuralthreads-backend",
+    "version": "0.1.0",
+    "private": true,
+    "description": "NeuralThreads v2 API — auth, sessions, semantic search groundwork",
+    "main": "server.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node --watch server.js",
+        "migrate": "node src/db/migrate.js"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "pg": "^8.13.1",
+        "bcryptjs": "^3.0.2",
+        "jsonwebtoken": "^9.0.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5"
+    },
+    "devDependencies": {}
+}
